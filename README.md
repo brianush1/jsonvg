@@ -1,6 +1,14 @@
 # JsonVG
 JsonVG (Json Vector Graphics) is a vector graphics format based on JSON. It always starts with the magic number "jsonvg(0)", followed by a Document object encoded in JSON. The specification is given in terms of TypeScript interfaces and comments explaining the various attributes.
 
+## s2jsonvg
+...is a command-line utility that can be used to convert basic SVG files into JsonVG files.
+```
+Usage: s2jsonvg input.svg output.jsonvg
+```
+
+## Specification:
+
 ```ts
 
 interface Document {
